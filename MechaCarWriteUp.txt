@@ -1,0 +1,47 @@
+
+Part 1: MechaCar MPG analysis:
+
+The script I used created a regression model for the data that was provided: MechaCar data. 
+The analysis of the data showed two seperate independent variable that were ground clearance and Verticle length. 
+The analysis proved that there are unforseen or variables that were not included in the data provided that lead to the variation in the regression analysis. 
+
+Part_2: Suspension_coil analysis
+The analysis shows that the variance calculated for the population data is 62.29. That will indicate it will meet the threshold required.
+
+
+Part_3: Hypothesis test for population mean 
+
+Test1 : 
+data: sample_psi$PSI
+t = 0.69119, df = 49, p-value = 0.4927
+alternative hypothesis: true mean is not equal to 1498.78
+95 percent confidence interval:
+ 1497.826 1500.734
+sample estimates:
+mean of x 
+  1499.28 
+
+
+Test 2: Welch Two Sample t-test
+
+data:  sample_psi$PSI and sample2_psi$PSI
+t = -1.1655, df = 90.159, p-value = 0.2469
+alternative hypothesis: true difference in means is not equal to 0
+95 percent confidence interval:
+ -3.840359  1.000359
+sample estimates:
+mean of x mean of y 
+  1499.28   1500.70 
+
+
+Part_4: Study Design
+I suggest a new study to compare MechaCar with competitors.
+
+Metrics:
+The following metrics would be of interest for comparison: price, fuel efficiency, service duration and coverage, included features, available colors and options, financing, discounts, and delivery schedule.
+
+Hypothesis:
+The hypothesis to test would be which factors impact consumer selection the most. The null hypothesis would be that some factors are statisticaly significant and others are not, based on a multi variable regression analysis and related t-tests.
+
+Data collection:
+The data collection should be based on the significant variables. I expect these would depend on the price class. Buyers of more expensive cars are likely to value features that are not the same as those that buyers of value cars might look for.
